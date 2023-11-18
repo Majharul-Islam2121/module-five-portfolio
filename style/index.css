@@ -2,3 +2,33 @@ body{
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
+nav{display: flex;align-items: center;justify-content: space-between;}
+.nav-tittle{
+    color: var(#181818);
+ 
+    font-size: 45px;
+    font-style: normal;
+margin-left: 160px;
+    
+}
+.nav-link{display: flex;margin-right: 150px;}
+.nav-link li{list-style: none;padding: 10px;margin-left: 20px;}
+.Rcolor{color: #FD6E0A;
+    font-size: 45px;
+    font-style: normal;
+    }
+    .hire{border-radius: 5px;
+        background: #FD6E0A;
+       color: white;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;}
+        .nav-img{color: rgba(24, 24, 24, 0.15);
+          margin-top: -80px;
+            font-size: 40px;
+            font-style: normal;
+            
+           
+            letter-spacing: 33px;}
