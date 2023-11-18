@@ -2,6 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
+.header{background: #FFF8F3;}
 nav{display: flex;align-items: center;justify-content: space-between;}
 .nav-tittle{
     color: var(#181818);
@@ -22,13 +23,30 @@ margin-left: 160px;
        color: white;
         font-family: Open Sans;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
+       
         line-height: normal;}
         .nav-img{color: rgba(24, 24, 24, 0.15);
           margin-top: -80px;
             font-size: 40px;
             font-style: normal;
-            
-           
             letter-spacing: 33px;}
+            .banner-nav{padding: 50px 170px;}
+            .hiret{padding: 10px;
+                color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+border: none;
+line-height: normal;
+ background-color: #FD6E0A;}
+ .banner{display: flex;
+justify-content: space-between;
+background-image: url("../images/header_bg.png");
+
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: 400px;
+}
+img{height: 300px;
+width: 300px;padding: 0px 40px;
+margin-top: 40px;}
