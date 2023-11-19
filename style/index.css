@@ -99,4 +99,42 @@ padding: 100px;
 }
 .skill-head{padding-right: 100px;}
 p{margin-left: 40px;}
-.skill-head{margin-left: 40px;}
+.skill-head{margin-left: 40px;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+
+.education-part{display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;margin-top: 50px;}
+.my-eduction{color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+    
+    .skill-desc{margin-left: 50px;}
+    .experience{padding: 30px;
+    }
+    .design-p{
+        color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .download{padding: 10px;border-radius: 10px;
+        color: var(--White-Color, #FFF);
+margin-left:550px;
+
+font-size: 18px;
+border: none;
+line-height: normal;
+background-color: #FD6E0A;
+margin-top: 100px;}
